@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Signup to linkedcamp</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+  <div class="page-header">
+    <h1 id="title">Signup to linkedcamp</h1>
+    <p id="description">Fill the form below to create your linkedcamp account!</p>
+  </div>
+    <form id="survey-form">
+    <div class="form-section">
+      <label id="name-label" for="name">Name <input id="name" type="text" placeholder="Enter your name" required></label>
+      <label id="email-label" for="email">Email <input id="email" type="email" placeholder="Enter your Email" required></label>
+      <label id="number-label" for="number">Age (optional) <input id="number" type="number" placeholder="Age" min="9" max="90"></label>
+      <fieldset>
+        <legend>Select your gender (required)</legend>
+        <label for="gender"><input id="gender" type="radio" name="gender" value="male" checked> &nbsp;Male</label>
+        <label for="gender"><input id="gender" type="radio" name="gender" value="female"> &nbsp;Female</label>
+        </fieldset>
+    </div>
+    <div class="form-section">
+<label for="dropdown">Which option descripes your current role? <select id="dropdown">
+          <option selected disabled>Select current role</option>
+          <option value="1">Student</option>
+          <option value="2">Full Time Job</option>
+          <option value="3">Full Time Learner</option>
+          <option value="4">Prefer not to say</option>
+        </select>
+      </label>
+    </div>
+    <div class="form-section">
+      <fieldset>
+        <legend>What experience do you have? (Check all that apply)</legend>
+        <label for="experience">
+          <input id="experience" name="experience" value="front-end" type="checkbox" class="input-checkbox">&nbsp;Front-end
+        </label>
+        <label for="experience">
+          <input id="experience" name="experience" value="back-end" type="checkbox" class="input-checkbox">&nbsp;Back-end
+        </label>
+        <label for="experience">
+          <input id="experience" name="experience" value="front-end-projects" type="checkbox" class="input-checkbox">&nbsp;Database management
+        </label>
+        <label for="experience">
+          <input id="experience" name="experience" value="front-end-projects" type="checkbox" class="input-checkbox">&nbsp;UI/UX designing
+        </label>
+        <label for="experience">
+          <input id="experience" name="experience" value="front-end-projects" type="checkbox" class="input-checkbox">&nbsp;Other
+        </label>
+      </fieldset>
+    </div>
+    <div class="form-section">
+      <label for="bio">Provide a bio:
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+      </label>
+    </div>
+    <div class="form-section">
+      <input id="submit" type="submit" value="Submit" />
+    </div> 
+    </form>
+  </body>
+</html>

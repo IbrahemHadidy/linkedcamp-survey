@@ -1,0 +1,100 @@
+body {
+  background: url(https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-97395.jpg?w=1380&t=st=1705351218~exp=1705351818~hmac=6b7243d67a0fc3164fdd93624f597ecb1f7e28be167c595b1611e7573d4a47a8) center/cover no-repeat;
+  color: #ffffff;
+  font-family: sans-serif, helvatica;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+.page-header {
+  margin-top:15px;
+  background-color:rgba(0,0,0,0.2);
+  padding: 5px;
+}
+
+#title, #description {
+  text-align: center;
+  padding: 4px;
+  margin: 0;
+}
+
+form {
+  background-color:rgba(20,55,92,0.70);
+  border-radius:10px;
+  padding: 40px;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+  width: 80%;
+  max-width: 600px;
+  min-width: 400px;
+}
+fieldset {
+  border: none;
+}
+.form-section {
+  padding: 15px 0;
+  border-bottom: 1px solid rgb(25,200,255);
+}
+.form-section:last-child {
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+  text-align: left;
+}
+label[for="gender"],
+label[for="experience"] {
+  display: inline-flex;
+  width: 100%;
+}
+input {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 3em;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  margin: 0;
+  cursor: pointer;
+  min-height: 1.15rem;
+  width: 1.15rem;
+}
+
+input[type="submit"] {
+  background-color:rgb(20,110,184);
+  border: none;
+}
+input[type="submit"]:hover {
+  background-color:rgb(40,180,255);
+  cursor: pointer;
+}
+
+#number, #email, #name {
+  margin-bottom: 10px;
+}
+
+fieldset {
+  padding: 0;
+}
+legend {
+  text-align:left;
+}
+
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 3em;
+}
+
+select {
+  cursor: pointer;
+}
+
+input, textarea {
+  color: #ffffff;
+}
